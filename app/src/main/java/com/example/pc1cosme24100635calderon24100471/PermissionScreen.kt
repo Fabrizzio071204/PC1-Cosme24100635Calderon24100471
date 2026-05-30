@@ -40,7 +40,7 @@ fun PermissionScreen(navController: NavHostController) {
     ) {
         Text("Asistencia de Viaje - Permisos", style = MaterialTheme.typography.titleLarge)
         Spacer(modifier = Modifier.height(24.dp))
-
+//comentariorandomoño
         // Muestra el texto dinámico según el estado del permiso
         Text("Estado: $permissionStatus", style = MaterialTheme.typography.bodyLarge)
         Spacer(modifier = Modifier.height(24.dp))
