@@ -15,7 +15,6 @@ fun BaggageScreen(navController: NavHostController) {
     var flightType by remember { mutableStateOf("Nacional") } // O DropdownMenu
     var resultText by remember { mutableStateOf("") }
     var errorMessage by remember { mutableStateOf("") }
-
     var expanded by remember { mutableStateOf(false) }
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
