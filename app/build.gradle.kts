@@ -9,13 +9,13 @@ android {
         versionName = "1.0"
     }
 }
-
 dependencies {
     // Jetpack Compose & Navigation
     implementation("androidx.navigation:navigation-compose:2.8.5")
 
     // Coil para carga de imágenes en Compose
     implementation("io.coil-kt.coil3:coil-compose:3.0.4")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
 }
 
 plugins {
